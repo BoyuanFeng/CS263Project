@@ -1,5 +1,5 @@
 # Performance Comparisons
-We are going to compare the performance of PyPy, IronPython, JIT, and CPython. The
+We are going to compare the performance of HotSpot and JikesRVM. The
 comparison will focus on running time, memory usage, and CPU usage. First we will collect 10
 programs from website (​ http://benchmarksgame.alioth.debian.org​ ) and try to run them on all
 of four platforms. Second step is to summary the running time, memory usage, and CPU usage
