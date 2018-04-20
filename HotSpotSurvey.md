@@ -12,7 +12,7 @@ JVM is specified in *the java® virtual machine specification* about the data st
 
 In summary, HotSpot is an implementation of JVM. There are lots of command-line argument, which may have various influence on the performance. The main point of our project is to try these arguments, record the influence on performance, and understand the reason behind scene.
 
-## How to implement HotSpot
+## How to install HotSpot
 
 
 ## How to run HotSpot
