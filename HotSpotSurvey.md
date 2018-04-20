@@ -3,6 +3,9 @@
 ## What is Java Virtual Machine (JVM)?
 Java is a programming language. To run a Java program, we need to write the source code first, then compile the source code into byte code using "javac". This byte code is a representation of source code in a compact way, which has benefit in transporting through network. To run these byte code, a virtual machine is required. The Java virtual machine is called a virtual machine, since it is a software machine simulating what a real machine does. The Java virtual machine (JVM) has its own instruction set, a virtual computer architecture, and an execution model. With these components, the JVM can do whatever a real machine would do. Based on this virtual machine, Java gains the ability to "write once, run everywhere", since the source code targeting the JVM with same semantic and the JVM will take care of resting work, like how to communicate with real architecture. In other words, JVM becomes the abstract of real architecture and provies a unique API to Java.
 
+## What is JRE? What is the difference between JRE and JVM?
+According to stackoverflow [5], JRE stands for *Java Runtime Environment*, which includes Java Virtual Machine (JVM), class libraries, and other supporting files. JRE does not contain any development tools such as compiler, debugger, etc. JVM makes use of class libraries and other supporting files provided in JRE to actually run the program. So JVM is a component of JRE.
+
 ## What is HotSpot?
 JVM is specified in *the java® virtual machine specification* about the data structure, API, compiling, and so on. Although there is a huge number of specifications, free space still exist on how to implement the JVM. HotSpot is an implementation of the JVM concept, while there is a list of other implementations [1]. According to wikipedia [2], there are a few important points about HotSpot that we should know. Italic sentence are copied directly from wikipedia and other sentence are summarized and rephrased by myself.
 * *HotSpot, released as Java HotSpot Performance Engine, is a Java virtual machine for desktop and server computers, maintained and distributed by Oracle Corporation. The Java HotSpot Performance Engine was first released April 27, 1999.*
@@ -17,15 +20,16 @@ JDK stands for *Java Development Kit*. According to website [3], OpenJDK is anot
 
 In our project, we will first try to use HotSpot. Then we will also run the same experiments on OpenJDK and compare the performance with HotSpot.
 
+
 ## How to install HotSpot
-Previously I installed openJDK. I switched to HotSpot using the following website [4].
+Previously I installed openJDK. I switched to HotSpot following the instructions from website [4].
 
 ## How to run HotSpot
-
+HotSpot is an implementation of JVM. On how to run HotSpot, there is not too much difference between HotSpot and other implementations. Simply type *java xxx* is enough.
 
 
 ## What are the flags and how to use them
-
+Oracle Java document [6] gives a nice explanation of what the flag are and how to use them. 
 
 
 
@@ -37,8 +41,9 @@ Previously I installed openJDK. I switched to HotSpot using the following websit
 
 [4] https://linode.com/docs/development/java/install-java-on-ubuntu-16-04/
 
+[5] Stack Overflow: What is the difference between the JRE and JVM? https://stackoverflow.com/questions/2812549/what-is-the-difference-between-the-jre-and-jvm
 
-
+[6] Oracle Java Document: Java https://docs.oracle.com/javase/8/docs/technotes/tools/unix/java.html
 
 
 
