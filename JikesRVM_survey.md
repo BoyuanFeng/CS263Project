@@ -90,7 +90,7 @@ bin/buildit -h
 ```
 # 3 Plan for Next Week
 
-Start to test some programs and measure the performances like time consumption, memory usage, and CPU usage on Jikes RVM.
+Start to test some [programs](https://benchmarksgame-team.pages.debian.net/benchmarksgame/) and measure the performances like time consumption, memory usage, and CPU usage on Jikes RVM.
 
 # 4 Acknowledgement
 
