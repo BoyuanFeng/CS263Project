@@ -12,8 +12,13 @@ JVM is specified in *the java® virtual machine specification* about the data st
 
 In summary, HotSpot is an implementation of JVM. There are lots of command-line argument, which may have various influence on the performance. The main point of our project is to try these arguments, record the influence on performance, and understand the reason behind scene.
 
-## How to install HotSpot
+## What is OpenJDK
+JDK stands for *Java Development Kit*. According to website [3], OpenJDK is another important implementation of Java, since it is the reference implementation: *Both "Java Language Specification" and "Java Virtual Machine Specifications" are freely available. There are multiple JDK and virtual machine implementations, some open source and others commercial. HotSpot is the most popular virtual machine, distributed with Oracle JDK. This is a commercial distribution and is pretty stable. However OpenJdk, initially developed by Sun Microsystems, is still the reference implementation, under GPL license.* 
 
+In our project, we will first try to use HotSpot. Then we will also run the same experiments on OpenJDK and compare the performance with HotSpot.
+
+## How to install HotSpot
+Previously I installed openJDK. I switched to HotSpot using the following website [4].
 
 ## How to run HotSpot
 
@@ -28,7 +33,9 @@ In summary, HotSpot is an implementation of JVM. There are lots of command-line 
 
 [2] Wikipedia: HotSpot https://en.wikipedia.org/wiki/HotSpot
 
+[3] http://davisfiore.co.uk/?q=node/255
 
+[4] https://linode.com/docs/development/java/install-java-on-ubuntu-16-04/
 
 
 
