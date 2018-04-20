@@ -30,7 +30,16 @@ HotSpot is an implementation of JVM. On how to run HotSpot, there is not too muc
 
 ## What are the flags and how to use them
 Oracle Java document [6] gives a nice explanation of what the flag are and how to use them. 
+```
+java [options] classname [args]
+```
 
+* options: Command-line options separated by spaces
+* classname: The name of the class to be launched.
+* args: The arguments passed to the main() method separated by spaces.
+
+## Plan for next week
+Collect a set of interesting programs and run these program using HotSpot.
 
 
 [1] Wikipedia: List of Java virtual machines https://en.wikipedia.org/wiki/List_of_Java_virtual_machines
