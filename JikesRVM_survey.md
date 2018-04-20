@@ -8,7 +8,7 @@ is self-hosted i.e., its Java code runs on itself without requiring a second vir
 the Java platform are written in native code (typically, C or C++). A Java implementation provides ease of portability, and a 
 seamless integration of virtual machine and application resources such as objects, threads, and operating-system interfaces.
 
-# How to install Jikes RVM
+# How to Install Jikes RVM
 A developer can either work with the version control system or download one of the releases. If you are interested in doing 
 development of Jikes RVM you should probably use Git instead of downloading a release.
 ## Download a Release
@@ -37,4 +37,7 @@ speciﬁc release, e.g. 2.4.6, by doing the following:
 $ cd jikesrvm 
 $ git checkout 2.4.6
 ```
+## Detailed Process of Installation of Jikes RVM
+<img src="">
+
 
