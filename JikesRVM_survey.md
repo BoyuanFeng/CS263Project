@@ -9,9 +9,10 @@ the Java platform are written in native code (typically, C or C++). A Java imple
 seamless integration of virtual machine and application resources such as objects, threads, and operating-system interfaces.
 
 # How to Install Jikes RVM
+## Get the Source
 A developer can either work with the version control system or download one of the releases. If you are interested in doing 
 development of Jikes RVM you should probably use Git instead of downloading a release.
-## Download a Release
+### Download a Release
 All the releases can be downloaded at [here](https://sourceforge.net/projects/jikesrvm/files/), you can use your web browser 
 to download the latest version of Jikes RVM and uncompress it using the command below:
 ```
@@ -21,7 +22,7 @@ or for the tar-bzip2 archive type:
 ```
 $ tar xvjf jikesrvm-<version>.tar.bz2
 ```
-## Use Git
+### Use Git
 If you're only interested in doing development of Jikes RVM (for our case we want ot measure the performance differences 
 between different virtual machines) it's better to use git to install JIKes RVM.
 If you are not familiar with Git, you can ﬁnd instructions on Git use at http://www.git-scm.com/doc. There is also a [Git 
@@ -37,7 +38,9 @@ speciﬁc release, e.g. 2.4.6, by doing the following:
 $ cd jikesrvm 
 $ git checkout 2.4.6
 ```
-## Detailed Process of Installation of Jikes RVM
-<img src="">
+### Detailed Process of Installation of Jikes RVM
+<img src="https://github.com/BoyuanFeng/CS263Project/blob/master/Installation_JikesRVM.png">
+
+##
 
 
