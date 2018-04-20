@@ -77,7 +77,7 @@ has the fastest build time.
 The build system will attempt to download and build these dependencies if they are not present or are the wrong version.
 
 #### 2.2.3.4 Building Jikes RVM
-The next step in building Jikes RVM is to run the ant command ```ant``` or ```ant -Dconfig.name=....``` This should build a complete RVM runtime in the directory ```${dist.dir}/${config.name}_${target.name}```. A complete list of documented targets can be listed by executing the command ant -projecthelp.
+The next step in building Jikes RVM is to run the ant command ```ant``` or ```ant -Dconfig.name=....``` This should build a complete RVM runtime in the directory ```${dist.dir}/${config.name}_${target.name}```. A complete list of documented targets can be listed by executing the command ```ant -projecthelp```.
 
 #### 2.2.3.5 Running Jikes RVM
 Jikes RVM can be executed in a similar way to most Java Virtual Machines. The diﬀerence is that the command is ```rvm``` and resides in the runtime directory (i.e. ```${dist.dir}/${config.name}_${target.name}```). Detailed command line options can be found [here](http://www.jikesrvm.org/UserGuide/RunningJikesRVM/index.html#x11-1010009).
