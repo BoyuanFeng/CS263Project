@@ -1,2 +1,4 @@
-# What is JikesRVM
-Jikes RVM is a virtual machine that runs Java programs. Unlike most other JVMs, it is written in Java, a style of implementation termed meta-circular. Jikes RVM runs on many platforms and advances the state-of-the-art of virtual machine technologies for dynamic compilation. These platforms includes
+# What is Jikes RVM
+Jikes RVM is a virtual machine that runs Java programs. Unlike most other JVMs, it is written in Java, a style of implementation termed meta-circular. Jikes RVM runs on many platforms. These platforms includes IA-32 Linux and PowerPC 64 Linux which are well supported and OS X, Solaris and PowerPC 32 which are less well-supported. It advances the state-of-the-art of virtual machine technologies for dynamic compilation, adaptive optimization, garbage collection, thread scheduling, and synchronization. A distinguishing characteristic of Jikes RVM is that it is implemented in the Java™ programming language and is self-hosted i.e., its Java code runs on itself without requiring a second virtual machine. Most other virtual machines for the Java platform are written in native code (typically, C or C++). A Java implementation provides ease of portability, and a seamless integration of virtual machine and application resources such as objects, threads, and operating-system interfaces.
+
+# How to install Jikes RVM
