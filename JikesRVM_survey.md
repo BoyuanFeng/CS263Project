@@ -84,7 +84,7 @@ Jikes RVM can be executed in a similar way to most Java Virtual Machines. The di
 
 ### 2.2.4 Using buildit
 
-buildit script is an easy way to build and test the system, and it contains lots of options, you can take a look at the options by running
+buildit script is an easier way to build and test the system, and it contains lots of options, you can take a look at the options by running
 ```
 bin/buildit -h
 ```
