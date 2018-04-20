@@ -85,11 +85,16 @@ Jikes RVM can be executed in a similar way to most Java Virtual Machines. The di
 ### Using buildit
 
 buildit script is an easy way to build and test the system, and it contains lots of options, you can take a look at the options by running
-
 ```
 bin/buildit -h
 ```
-#
+# Plan for Next Week
 
+Start to test some programs and measure the performances like time consumption, memory usage, and CPU usage on Jikes RVM.
+
+# Acknowledgement
+
+Thanks to the official guide on Jikes RVM [website](http://www.jikesrvm.org/), most of instructions here are learned from 
+there.
 
 
