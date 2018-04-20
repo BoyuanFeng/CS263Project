@@ -38,6 +38,20 @@ java [options] classname [args]
 * classname: The name of the class to be launched.
 * args: The arguments passed to the main() method separated by spaces.
 
+The following list presents a subset of options which are interesting for the author. These options are interesting since they may have tremendous impact on the performance. All of descriptions are copied from Oracle Java Document [6] directly.
+
+* -d32: Run program in 32-bit mode
+* -d64: Run program in 64-bit mode
+* -Xbatch: Disables background compilation. By default, the JVM compiles the method as a background task, running the method in interpreter mode until the background compilation is finished. The -Xbatch flag disables background compilation so that compilation of all methods proceeds as a foreground task until completed.
+* -Xcomp: Forces compilation of methods on first invocation. By default, the Client VM (-client) performs 1,000 interpreted method invocations and the Server VM (-server) performs 10,000 interpreted method invocations to gather information for efficient compilation. Specifying the -Xcomp option disables interpreted method invocations to increase compilation performance at the expense of efficiency.
+* -Xint: Runs the application in interpreted-only mode. Compilation to native code is disabled, and all bytecode is executed by the interpreter. The performance benefits offered by the just in time (JIT) compiler are not present in this mode.
+* -Xmixed: Executes all bytecode by the interpreter except for hot methods, which are compiled to native code.
+* -Xnoclassgc: Disables garbage collection (GC) of classes. This can save some GC time, which shortens interruptions during the application run.
+* -XX:+AggressiveOpts: Enables the use of aggressive performance optimization features.
+* -XX:+AggressiveHeap: Enables Java heap optimization. This sets various parameters to be optimal for long-running jobs with intensive memory allocation, based on the configuration of the computer (RAM and CPU). By default, the option is disabled and the heap is not optimized.
+* -XX:NativeMemoryTracking=mode: Specifies the mode for tracking JVM native memory usage.
+
+
 ## Plan for next week
 Collect a set of interesting programs and run these program using HotSpot.
 
