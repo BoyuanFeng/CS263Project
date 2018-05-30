@@ -1,0 +1,134 @@
+This file describes how to call all the java codes.
+
+1. fasta.java
+
+javac fasta.java
+java fasta 25000000
+java -Xbatch fasta 25000000
+java -XX:+AggressiveOpts fasta 25000000
+java -Xint fasta 25000000
+java -Xcomp fasta 25000000
+java -Xnoclassgc fasta 25000000
+
+
+2. revcomp.java
+
+javac revcomp.java
+java fasta 100000000 > input100000000.txt
+java revcomp 0 < input100000000.txt
+java -Xbatch revcomp 0 < input100000000.txt
+java -XX:+AggressiveOpts revcomp 0 < input100000000.txt
+java -Xint revcomp 0 < input100000000.txt
+java -Xcomp revcomp 0 < input100000000.txt
+java -Xnoclassgc revcomp 0 < input100000000.txt
+
+
+
+
+
+
+3. fannkuchredux.java
+
+javac fannkuchredux.java
+java fannkuchredux 12
+java -Xbatch fannkuchredux 12
+java -XX:+AggressiveOpts fannkuchredux 12
+java -Xint fannkuchredux 12
+java -Xcomp fannkuchredux 12
+java -Xnoclassgc fannkuchredux 12
+
+
+
+4. spectralnorm.java
+
+javac spectralnorm.java
+java   spectralnorm 5500
+java -Xbatch  spectralnorm 5500
+java -XX:+AggressiveOpts  spectralnorm 5500
+java -Xint  spectralnorm 5500
+java -Xcomp  spectralnorm 5500
+java -Xnoclassgc  spectralnorm 5500
+
+
+5. nbody.java
+
+javac nbody.java
+java nbody 50000000
+java -Xbatch nbody 50000000
+java -XX:+AggressiveOpts nbody 50000000
+java -Xint nbody 50000000
+java -Xcomp nbody 50000000
+java -Xnoclassgc nbody 50000000
+
+
+6. binarytrees.java
+
+javac binarytrees.java
+java binarytrees 21
+java -Xbatch binarytrees 21
+java -XX:+AggressiveOpts binarytrees 21
+java -Xint binarytrees 21
+java -Xcomp binarytrees 21
+java -Xnoclassgc binarytrees 21
+
+
+7. mandelbrot.java
+
+javac mandelbrot.java
+java mandelbrot 16000
+java -Xbatch mandelbrot 16000
+java -XX:+AggressiveOpts mandelbrot 16000
+java -Xint mandelbrot 16000
+java -Xcomp mandelbrot 16000
+java -Xnoclassgc mandelbrot 16000
+
+
+8. regexredux.java
+
+java fasta 5000000 > input5000000.txt
+javac regexredux.java
+java regexredux 0 < input5000000.txt
+java -Xbatch regexredux 0 < input5000000.txt
+java -XX:+AggressiveOpts regexredux 0 < input5000000.txt
+java -Xint regexredux 0 < input5000000.txt
+java -Xcomp regexredux 0 < input5000000.txt
+java -Xnoclassgc regexredux 0 < input5000000.txt
+
+
+9. knucleotide
+
+java fasta 25000000 > input25000000.txt
+javac knucleotide.java
+java knucleotide 0 < input25000000.txt
+java -Xbatch knucleotide 0 < input25000000.txt
+java -XX:+AggressiveOpts knucleotide 0 < input25000000.txt
+java -Xint  knucleotide 0 < input25000000.txt
+java -Xcomp knucleotide 0 < input25000000.txt
+java -Xnoclassgc knucleotide 0 < input25000000.txt
+
+
+
+10. Stopwatch
+
+java Stopwatch.java
+java Stopwatch 100000000
+java -Xbatch Stopwatch 100000000
+java -XX:+AggressiveOpts Stopwatch 100000000
+java -Xint Stopwatch 100000000
+java -Xcomp Stopwatch 100000000
+java -Xnoclassgc Stopwatch 100000000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
