@@ -25,7 +25,7 @@ p6 = ax.bar(ind + width*5, xoclassgc, width, color='k', bottom=0)
 
 
 
-ax.set_title('Performance by programs and flags')
+#ax.set_title('Performance by programs and flags')
 ax.set_xticks(ind + width / 2)
 ax.set_xticklabels(('sqrt', 'spectralnorm', 'binarytrees', 'nbody', 'mandelbrot',
                     'pow', 'regexredux', 'knucleotide', 'fannkuchredux',
@@ -33,6 +33,9 @@ ax.set_xticklabels(('sqrt', 'spectralnorm', 'binarytrees', 'nbody', 'mandelbrot'
 
 ax.legend((p1[0], p2[0], p3[0], p4[0], p5[0], p6[0]), ('Default', 'Xbatch',
               'AggressiveOpts', 'Xint', 'Xcomp', 'Xnoclassgc'))
+
+ax.set_ylabel("Running time (s)")
+
 #ax.yaxis.set_units(inch)
 ax.autoscale_view()
 plt.subplots_adjust(bottom=0.2)
